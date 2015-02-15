@@ -1,0 +1,780 @@
+* { outline: 0;  outline-color: transparent; outline-style: none; outline-width: 0; }
+html{color:#000;}
+
+/* stuff */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+fieldset,img{border:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+.black{ color: #000; }
+.white{ color: #fff; }
+.small{ font-size: 13px; }
+.clear {clear: both;}
+
+/* common */
+html, body {
+	width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "Open Sans",Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+h3{
+	font: normal 56px/56px 'bebas_neueregular';
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 0 15px 0;
+	margin: 0px;
+}
+.clear {
+	clear: both;
+}
+
+/* specific */
+div.banner {
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 50;
+}
+div.move .container {
+    max-width: 990px;
+    margin: 0px auto;
+}
+
+
+/* home */
+#home {
+    text-align: center;
+    background: #f71616 url('../img/background.jpg');
+    background-size: cover;
+    background-position:  center center;
+    min-height: 600px;
+    z-index: 9999;
+}
+    #home h1{
+      font-weight: 700;
+      font-size: 44px;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 0px;
+      margin: 0px;
+      margin-bottom: 30px;
+      padding-top: 80px;
+    }
+    #home h2{
+        font-weight: 400;
+        font-size: 33px;
+        color: #fff;
+        text-transform: none;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 170px;
+    }
+
+	#home .box-1{
+	    float: left;
+	    margin-top: -40px;
+	    width: 50%;
+	    text-align: right;
+	}
+	#home .box-2{
+	    float: right;
+	    margin-top: -40px;
+	    width: 50%;
+	    padding-top: 30px;
+	    text-align: left;
+	    z-index: 9999;
+	}
+	#home .box-2 ul{
+	    margin: 0;
+	    padding: 0;
+	}
+		#home .box-2 ul li{
+		    display: block;
+		    padding: 8px 0px;
+		    font-size: 14px;
+		}
+			#home .box-2 ul li .icon-color, #home .box-2 ul li .text-color{
+			    color: #fff;
+			}
+		#home .box-2 ul li span.text{
+		    font-size: 18px;
+		    text-align: left;
+		    padding-left: 10px;
+		}
+	
+/* center */
+#center {
+    background: #fcfcfc;  
+    z-index: 0;
+}
+	#center .container {
+		padding-top: 0;
+		padding-bottom: 70px;
+	}
+	#center h3{
+		font-weight: 600;
+		font-family: "Open Sans",Arial,Helvetica,sans-serif;
+		font-size: 40px;
+		color: #000;
+		text-align: center;
+		text-transform: none;
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		float: left;
+		padding-top: 110px;
+	}
+	#center .small-text{
+		text-align: center;
+		width: 100%;
+		float: left;
+	} 
+	#center p.right-text{
+		color: #000;
+		text-align: left;
+		padding-top: 80px;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 18px;
+		
+	}
+
+a.appstore_button {
+    background-image: url("../img/store_buttons.png");
+    display: block;
+    float: left;
+    height: 71px;
+    margin-right: 25px;
+    width: 208px;
+}
+a.google_play_button {
+    background-image: url("../img/store_buttons.png");
+    background-position: -208px 0;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 71px;
+    width: 208px;
+}
+
+/* features */
+#features {
+    background: #f8f8f8;
+}
+#features .container {
+	padding: 70px 0 50px 0;
+}
+    #features .container h3{
+			font-weight: 600;
+			font-family: "Open Sans",Arial,Helvetica,sans-serif;
+			font-size: 23px;
+			color: #292929;
+			line-height: 29px;
+			text-align: center;
+			text-transform: none;
+			padding: 0px;
+			margin: 0px;
+			padding-top: 0px;
+			padding-bottom: 60px;
+	}
+		#features .container ul{
+			margin: 0;
+			padding: 0 auto;
+			text-align: center;
+		}
+			#features .container ul li{
+				display: inline-block;
+				*zoom: 1;
+				width: 40%;
+				text-align: center;
+				
+				padding-bottom: 65px;
+			}
+				#features .container ul li p{
+					font-size: 13px;
+					color: #606060;
+					width: 85%;
+					margin: 0 auto;
+					line-height: 19px;
+				}
+					#features .container ul li i{
+						font-size: 52px;
+						color: #292929;
+						padding-bottom: 9px;
+					}
+						#features .container ul li h4{
+							font-size: 18px;
+							color: #292929;
+							text-align: center;
+							margin: 0;
+							padding: 0;
+							font-weight: 600;
+							padding-bottom: 16px;
+						}
+
+/* more */
+#more {
+  background: #fff;
+}
+#more .container {
+	padding: 80px 0 0px 0;
+	margin-bottom: -90px;
+}
+
+    #more ul{
+        margin: 0 auto;
+        width: 80%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+        #more ul li{
+            display: inline-block;
+            *zoom: 1;
+						width: 45%;
+						vertical-align: middle;
+            padding: 1px 0px;
+        }
+					#more ul li.left{
+						text-align: left;
+					}
+					#more ul li.left h3{
+						font-family: "Open Sans",Arial,Helvetica,sans-serif;
+						font-size: 33px;
+						margin-top: -50px;
+						font-weight: 600;
+						line-height: 40px;
+						text-transform: none;
+						color: #414141;
+						text-align: left;
+						padding-bottom: 45px;
+						width: 70%;
+					}
+						#more ul li.left p{
+							font-size: 14px;
+							width: 80%;
+							line-height: 22px;
+							color: #414141;
+							text-align: left;
+							padding-bottom: 20px;
+						}
+				
+/* downloads */
+#downloads {
+    background: #f71616 url('../img/background.jpg') center center repeat-x;
+    background-size: cover;
+}
+#downloads .container {
+	padding: 54px 0 10px 0;
+}
+#downloads .container h3{
+			font-weight: 700;
+			font-family: "Open Sans",Arial,Helvetica,sans-serif;
+			font-size: 29px;
+			color: #fff;
+			text-align: center;
+			text-transform: none;
+			padding: 0px;
+			margin: 0px;
+			padding-bottom: 20px;
+	}
+    #downloads ul{
+        margin: 0 auto;
+        width: 80%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+        #downloads ul li{
+            display: inline-block;
+            *zoom: 1;
+            padding: 1px 0px;
+        }
+
+/* contacts */
+#contacts {
+    background: #fff;
+}
+#contacts .container {
+	padding: 60px 0 0px 0;
+}
+    #contacts ul{
+        margin: 0 auto;
+        width: 80%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+        #contacts ul li{
+            display: inline-block;
+            *zoom: 1;
+            padding: 1px 15px;
+        }
+            #contacts ul li .social{
+                font-size: 19px;
+                color: #d4d4d4;
+								
+            }
+						#contacts ul li .fb, #contacts ul li .twitter, #contacts ul li .vk,  #contacts ul li .mail{
+							padding: 8px 14px;
+							border-radius: 19px;
+							border: 1px solid #fff;
+						}
+            #contacts ul li .fb:hover{
+                color: #3b8fed;
+								border: 1px solid #3b8fed;
+            }
+            #contacts ul li .twitter:hover{
+                color: #3bd2ed;
+								border: 1px solid #3bd2ed;
+            }
+            #contacts ul li .mail:hover{
+                color: #2d3030;
+								border: 1px solid #2d3030;
+            }
+						#contacts ul li .vk:hover{
+                color: #13689a;
+								border: 1px solid #13689a;
+            }
+					
+				#contacts ul.links{
+						margin: 0 auto;
+						width: 80%;
+						padding: 0;
+						text-align: center;
+						padding-bottom: 20px;
+				}	
+				#contacts ul.links li{
+            display: inline-block;
+            *zoom: 1;
+            padding: 1px 10px;
+        }
+					#contacts ul.links li a{
+						color: #a7a7a7;
+						font-size: 12px;
+						text-decoration: none;
+					}
+					#contacts ul.links li a:hover{
+						color: #20a5f4;
+					}
+		#contacts .phone{
+		    margin: auto;
+		    width: 480px;
+		    background: url('../img/iphone_hand-2.png') center top no-repeat;
+		    height: 377px;
+		    margin-bottom: 0px;
+		    z-index: 4;
+		}
+
+
+/*=======================================================================================*/
+/* responsive */
+@media screen and (min-width: 590px) and (max-width: 805px){
+	#home {
+		min-height: 640px;
+	}
+	#home .box-2{
+		padding-top: 50px;
+	}
+	#home p.right-text{
+		margin: 0 auto;
+		width: 98%;
+		text-align: center;
+	}
+	#center a.appstore_button {
+    margin-left: 25px;
+		margin-top: -40px;
+		margin-bottom: 10px;
+	}
+	#center a.google_play_button {
+    margin-left: 25px;
+	}
+	
+	   #more ul{
+        margin: 20px auto;
+        width: 90%;
+    }
+        #more ul li{
+						width: 100%;
+						text-align: center;
+						vertical-align: middle;
+        }
+					#more ul li.left{
+						text-align: center;
+					}
+					#more ul li.left h3{
+						font-size: 33px;
+						text-align: center;
+						padding-bottom: 25px;
+						width: 100%;
+					}
+						#more ul li.left p{
+							width: 100%;
+							text-align: center;
+							padding-bottom: 20px;
+						}
+						
+						
+}
+
+@media screen and (min-width: 590px) and (max-width: 715px){
+
+	#home h2{
+		font-size: 25px;
+	}
+	#home img.iphone{
+		width: 260px;
+		height: 478px;
+	}
+	#home .box-2 ul li{
+            padding: 8px 0px;
+            font-size: 11px;
+        }
+	#center p.right-text{
+		padding-top: 30px;
+		text-align: center;
+		padding-bottom: 0px;
+		float: left;
+		width: 100%;
+	}
+	#center a.appstore_button {
+    margin-top: 0px;
+	}
+	#center a.google_play_button {
+    margin-left: 0px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 590px){
+	
+	#home h2{
+		font-size: 25px;
+	}
+	#home img.iphone{
+		margin-top: -50px;
+	}
+	#home .box-1{
+		text-align: center;
+		width: 100%;
+	}
+	#home .box-2{
+		display: block;
+		float: right;
+		width: 100%;
+	}
+		#home .box-2 ul{
+			padding: 20px 30px;
+		}
+			#home .box-2 ul li{
+			    padding: 8px 0px;
+			    font-size: 11px;
+			}
+				#home .box-2 ul li .icon-color, #home .box-2 ul li .text-color{
+					color: #000;
+				}
+					
+	#center p.right-text{
+		padding-top: 30px;
+		text-align: center;
+		padding-bottom: 0px;
+		float: left;
+		width: 100%;
+	}
+	#center a.appstore_button {
+    margin-top: 0px;
+		margin-left: 20px;
+	}
+	
+		   #more ul{
+        margin: 20px auto;
+        width: 90%;
+    }
+        #more ul li{
+						width: 100%;
+						text-align: center;
+						vertical-align: middle;
+        }
+					#more ul li.left{
+						text-align: center;
+					}
+					#more ul li.left h3{
+						font-size: 33px;
+						text-align: center;
+						padding-bottom: 25px;
+						width: 100%;
+					}
+						#more ul li.left p{
+							width: 100%;
+							text-align: center;
+							padding-bottom: 20px;
+						}
+
+
+	#features .container ul li{
+				width: 100%;
+			}
+						
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+	#home h2{
+		font-size: 25px;
+	}
+	#home img.iphone{
+		margin-top: -50px;
+	}
+	#home .box-1{
+		text-align: center;
+		width: 100%;
+	}
+	#home .box-2{
+		display: block;
+		float: right;
+		width: 100%;
+		z-index: 9999;
+	}
+		#home .box-2 ul{
+			padding: 20px 30px;
+		}
+			#home .box-2 ul li{
+			    padding: 8px 0px;
+			    font-size: 11px;
+			}
+				#home .box-2 ul li .icon-color, #home .box-2 ul li .text-color{
+					color: #000;
+				}
+					
+	#center p.right-text{
+		padding-top: 30px;
+		float: left;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	#center a.appstore_button {
+    margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	#center a.google_play_button {
+    margin-left: 10px;
+	}
+	
+	#downloads a.appstore_button {
+    margin-left: 10px;
+	}
+	#downloads a.google_play_button {
+    margin-left: -15px;
+	}
+
+	   #more ul{
+        margin: 20px auto;
+        width: 90%;
+    }
+        #more ul li{
+						width: 100%;
+						text-align: center;
+						vertical-align: middle;
+        }
+					#more ul li.left{
+						text-align: center;
+					}
+					#more ul li.left h3{
+						font-size: 33px;
+						text-align: center;
+						padding-bottom: 25px;
+						width: 100%;
+					}
+						#more ul li.left p{
+							width: 100%;
+							text-align: center;
+							padding-bottom: 20px;
+						}
+						
+			#more ul li img{
+				width: 300px;
+				height: 453px;
+			}
+			
+			#features .container ul li{
+				width: 100%;
+			}
+			
+			#contacts .phone{
+		    width: 100%;
+		    height: 377px;
+		}
+			#contacts ul li{
+            display: inline-block;
+            *zoom: 1;
+            padding: 1px 8px;
+        }
+		
+}
+
+@media screen and (max-width: 320px){
+	#home h2{
+		font-size: 25px;
+	}
+	#home img.iphone{
+		margin-top: -50px;
+	}
+	#home .box-1{
+		text-align: center;
+		width: 100%;
+	}
+	#home .box-2{
+		display: block;
+		float: right;
+		z-index: 9999;
+		width: 100%;
+	}
+		#home .box-2 ul{
+			padding: 20px 30px;
+		}
+			#home .box-2 ul li{
+			    padding: 8px 0px;
+			    font-size: 11px;
+			}
+				#home .box-2 ul li .icon-color, #home .box-2 ul li .text-color{
+					color: #000;
+				}
+					
+	#center p.right-text{
+		padding-top: 30px;
+		float: left;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	
+	#features .container ul li{
+				width: 100%;
+			}
+			
+				#contacts .phone{
+		    width: 100%;
+		    height: 287px;
+		}
+			#contacts ul li{
+            display: inline-block;
+            *zoom: 1;
+            padding: 1px 4px;
+        }
+}
+
+/*=================================================================================================*/
+/* effects */
+@-webkit-keyframes moveUp {
+	to { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes moveUp {
+	to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	to { transform: translateY(0); opacity: 1; }
+}
+@-webkit-keyframes bounceInDown {
+	to {
+	-webkit-transform: translateY(-200px);
+	-moz-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-animation: moveUp 0.75s ease forwards;
+	-moz-animation: moveUp 0.75s ease forwards;
+	animation: moveUp 0.75s ease forwards;
+	}
+}
+
+@-moz-keyframes bounceInDown {
+	to {
+		-webkit-transform: translateY(-200px);
+	-moz-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-animation: moveUp 0.75s ease forwards;
+	-moz-animation: moveUp 0.75s ease forwards;
+	animation: moveUp 0.75s ease forwards;
+	}
+}
+
+@-o-keyframes bounceInDown {
+	to {
+		-webkit-transform: translateY(-10px);
+	}
+}
+
+@keyframes bounceInDown {
+	to {
+		-webkit-transform: translateY(-10px);
+	}
+}
+.animated.bounceInDown {
+	-webkit-transform: translateY(-200px);
+	-moz-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-animation: moveUp 2.75s ease forwards;
+	-moz-animation: moveUp 2.75s ease forwards;
+	animation: moveUp 2.75s ease forwards;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0; 
+	-webkit-animation:fadeIn ease-in 1; /
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 3.0s;
+-moz-animation-delay: 3.0s;
+animation-delay: 3.0s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 3.2s;
+-moz-animation-delay: 3.2s;
+animation-delay: 3.2s;
+}
+
+        
+    
+    

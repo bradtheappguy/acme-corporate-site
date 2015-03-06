@@ -1,50 +1,23 @@
 <!DOCTYPE html>
-<!-- saved from url=(0029)http://estof.net/app-landing/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<title>MyRadar | Hi-Def Mobile Radar</title>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MyRadar | Hi-Def Mobile Radar</title>
+<link rel="stylesheet" type="text/css" href="css/screen.css" />
 <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<link href="style.css" rel="stylesheet" type="text/css">
-<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<style>img.chromoji { width:1em !important; height:1em !important; }.chromoji-font, #chromoji-font { font-size:1em !important; }</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-var index = 0;
-var images = ["iphone-1.png","iphone-2.png","iphone-3.png","iphone-4.png","iphone-5.png"];
-$(function() {
-
-setInterval(function() {
-   $('.iphone').fadeOut(1000, function() {
-      index = index + 1;
-      if (index == images.length)
-        index = 0;
-      $(this).attr('src',images[index]).bind('onreadystatechange load', function(){
-         if (this.complete) {
-            $(this).fadeIn(1000);
-         }
-         else {
-            console.log('xxx');
-         }
-      });
-   });
-}, 6000);
-});
-</script>
-
-
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
+<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
-
 <body>
 <div id="wrapper">
 	<div class="banner home" id="home">
 		<div class="container">
-			<img class="logo" src="mrlogo.png">
-			<h1 class="fade-in one">The world's most popular weather radar app</h1>
-			<h2 class="fade-in two">Over 11 million downloads</h2>
-				<div class="box-1 animated bounceInDown"><img width="313" height="575" src="iphone-1.png" class="iphone"></div>
-        <div class="box-2 fade-in four">
+			<img class="logo" src="img/myradarlogo.png">
+			<h1 class="fade-in one">The world's most popular<br>weather radar app</h1>
+			<h2 class="fade-in two">Over 17 million downloads</h2>
+				<div class="box-1 animated bounceInDown"><img src="img/iphone.png" class="iphone" /></div>
+				<div class="box-2 fade-in four">
 					<ul>
 						<li>
 							<span class="fa-stack fa-lg icon-color">
@@ -74,13 +47,7 @@ setInterval(function() {
 							</span>
 							<span class="text text-color">Storm Tracking</span>
 						</li>
-						<li>
-							<span class="fa-stack fa-lg icon-color">
-								<i class="fa fa-circle-o fa-stack-2x"></i>
-								<i class="fa fa-check fa-stack-1x "></i>
-							</span>
-							<span class="text text-color">Aviation Information</span>
-						</li>
+						
 					</ul>
 			</div>
 		</div>
@@ -88,15 +55,28 @@ setInterval(function() {
 	<div class="banner move" id="center">
 		<div class="container">
 			<p class="right-text fade-in five">
-				<a class="appstore_button" href="http://itunes.apple.com/us/app/myradar-weather-radar/id322439990?mt=8" style="opacity: 1;"></a>
-				<a class="google_play_button" href="https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar&feature=top-free#?t=W251bGwsMSwyLDIwNSwiY29tLmFjbWVhb20uYW5kcm9pZC5teXJhZGFyIl0." style="opacity: 1;"></a>
-				<a class="windows_store_button" href="http://apps.microsoft.com/windows/en-US/app/myradar/893b6f89-81ba-47cd-a637-00ba1210d656" style="opacity: 1;"></a>
-				<a class="windows_phone_store_button" href="http://www.windowsphone.com/en-US/apps/d823aa9a-71d6-df11-a844-00237de2db9e" style="opacity: 1;"></a>
-				<a class="glass_store_button" href="https://glass.google.com/glassware/13304945020839251999" style="opacity: 1;"></a>
 				
+				
+				<a class="appstore_button" href="https://itunes.apple.com/us/app/myradar-weather-radar/id322439990" target="_blank" style="opacity: 1;"></a>
+				<a class="google_play_button" href="https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar&feature=top-free#?t=W251bGwsMSwyLDIwNSwiY29tLmFjbWVhb20uYW5kcm9pZC5teXJhZGFyIl0" target="_blank" style="opacity: 1;"></a>
+			
+        <a class="windows_store_button" href="http://apps.microsoft.com/windows/en-US/app/myradar/893b6f89-81ba-47cd-a637-00ba1210d656" target="_blank" style="opacity: 1;"></a>
+				<a class="windows_phone_store_button" href="http://www.windowsphone.com/en-us/store/app/myradar-weather-radar/d823aa9a-71d6-df11-a844-00237de2db9e" target="_blank" style="opacity: 1;"></a>
+				<a class="glass_store_button" href="https://glass.google.com/glassware/13304945020839251999" target="_blank" style="opacity: 1;"></a>
+			
+			
 			</p>	
 			<h3>The best, easiest app out there, period!</h3>
 			<p class="small-text">— Mike3693, iOS user</p>
+			<p class="small-text"><i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i></p>
+			<h3>I love this app!...INSANELY ACCURATE!</h3>
+			<p class="small-text">— eric christopher, iOS user</p>
+			<p class="small-text"><i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i></p>
+			<h3>It is, in my opinion, the best radar app period! </h3>
+			<p class="small-text">—  HardPhil, iOS user</p>
+			<p class="small-text"><i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i></p>
+			<h3>THE BEST RADAR!</h3>
+			<p class="small-text">—   Randall PinkFloyd, Andriod user</p>
 			<p class="small-text"><i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i></p>
 			<div class="clear"></div>
 		</div>
@@ -139,17 +119,22 @@ setInterval(function() {
 					<p>View nationwide AIRMETs and SIGMETS, and track flights using our advanced aviation features</p>
 				</li>
 		</ul></div>
+
 	</div>
 			
 	<div class="banner move" id="more">
 		<div class="container">
 			<ul>
 				<li class="left">
-					<h3>This app is just the beginning</h3>
-					<p>Curabitur nulla tellus, pretium in interdum a, sodales pulvinar nulla. Donec bibendum tortor urna, tortor urna, ut vestibulum erat viverra et. Proin lacus ligula, volutpat sed enim quis. ut vestibulum erat viverra et. Proin lacus ligula, volutpat sed enim quis.</p>
+					<h3>Hi-Tech & HD Weather Radar</h3>
+					<p>MyRadar provides an extremely fast way to get an overall at-a-glance check at potential radar precipitation headed your way.</p>
+<p>
+For the casual weather enthusiast to the seasoned weather professional, we have hi-definition radar, as well as NOAA weather alerts, temperatures, forecasts, and a detailed hurricane tracker; you can even share your own weather photos.</p><p>
+
+For aviation enthusiasts; AIRMETs/SIGMETs as well flight-plan weather checking! </p>
 					
 				</li>
-				<li><img src="iphone2.png"></li>
+				<li><img src="img/iphone2.png" /></li>
 			</ul>
 		</div>
 	</div>
@@ -158,13 +143,13 @@ setInterval(function() {
 		<div class="container">
 			<h3>Download MyRadar</h3>
 			<ul>
-				<li><a class="appstore_button" href="http://estof.net/app-landing/#" style="opacity: 1;"></a></li>
-				<li><a class="google_play_button" href="http://estof.net/app-landing/#" style="opacity: 1;"></a></li>
+				<li><a class="appstore_button" href="https://itunes.apple.com/us/app/myradar-weather-radar/id322439990" target="_blank" style="opacity: 1;"></a></li>
+				<li><a class="google_play_button" href="https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar&feature=top-free#?t=W251bGwsMSwyLDIwNSwiY29tLmFjbWVhb20uYW5kcm9pZC5teXJhZGFyIl0" target="_blank" style="opacity: 1;"></a></li>
 			</ul>
 			<ul>
-        <li><a class="windows_store_button" href="http://estof.net/app-landing/#" style="opacity: 1;"></a></li>
-				<li><a class="windows_phone_store_button" href="http://estof.net/app-landing/#" style="opacity: 1;"></a></li>
-				<li><a class="glass_store_button" href="http://estof.net/app-landing/#" style="opacity: 1;"></a></li>
+        <li><a class="windows_store_button" href="http://apps.microsoft.com/windows/en-US/app/myradar/893b6f89-81ba-47cd-a637-00ba1210d656" target="_blank" style="opacity: 1;"></a></li>
+				<li><a class="windows_phone_store_button" href="http://www.windowsphone.com/en-us/store/app/myradar-weather-radar/d823aa9a-71d6-df11-a844-00237de2db9e" target="_blank" style="opacity: 1;"></a></li>
+				<li><a class="glass_store_button" href="https://glass.google.com/glassware/13304945020839251999" target="_blank" style="opacity: 1;"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -180,13 +165,13 @@ setInterval(function() {
 				<li>&copy; 2015 Acme Atron-O-Matic, LLC</li>
 				<li><a href="privacy_policy.html">Privacy Policy</a></li>
 			</ul>
-			<!--div class="phone"></div-->
+			
 			<div class="clear"></div>
 		</div>
 	</div>
 </div>
 	
 	
-	
-
-</body></html>
+</div>	
+</body>
+</html>

@@ -8,6 +8,14 @@
 <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
 <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 </head>
 <body>
 <div id="wrapper">
@@ -16,7 +24,33 @@
 			<img class="logo" src="img/myradarlogo.png">
 			<h1 class="fade-in one">The world's most popular<br>weather radar app</h1>
 			<h2 class="fade-in two">Over 17 million downloads</h2>
-				<div class="box-1 animated bounceInDown"><img src="img/iphone.png" class="iphone" /></div>
+				<div class="box-1 animated bounceInDown">
+				          <div class="span5">
+            <div class="iphone">
+              <div class="iphone-slider">
+                <div id="mobile-carousel" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/slide-1.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="img/slide-2.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="img/slide-3.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="img/slide-4.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="img/slide-5.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>           
+          </div><!-- /span5 -->
+				</div>
 				<div class="box-2 fade-in four">
 					<ul>
 						<li>
@@ -78,6 +112,9 @@
 			<h3>THE BEST RADAR!</h3>
 			<p class="small-text">—   Randall PinkFloyd, Andriod user</p>
 			<p class="small-text"><i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i> <i class="fa fa-star small"></i></p>
+			
+			
+
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -141,7 +178,7 @@ For aviation enthusiasts; AIRMETs/SIGMETs as well flight-plan weather checking! 
 	
 	<div class="banner move" id="downloads">
 		<div class="container">
-			<h3>Download MyRadar</h3>
+			<h3>Free Download</h3>
 			<ul>
 				<li><a class="appstore_button" href="https://itunes.apple.com/us/app/myradar-weather-radar/id322439990" target="_blank" style="opacity: 1;"></a></li>
 				<li><a class="google_play_button" href="https://play.google.com/store/apps/details?id=com.acmeaom.android.myradar&feature=top-free#?t=W251bGwsMSwyLDIwNSwiY29tLmFjbWVhb20uYW5kcm9pZC5teXJhZGFyIl0" target="_blank" style="opacity: 1;"></a></li>
@@ -165,7 +202,7 @@ For aviation enthusiasts; AIRMETs/SIGMETs as well flight-plan weather checking! 
 				<li>&copy; 2015 Acme Atron-O-Matic, LLC</li>
 				<li><a href="privacy_policy.html">Privacy Policy</a></li>
 			</ul>
-			
+			<div class="phone"></div>
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -173,5 +210,6 @@ For aviation enthusiasts; AIRMETs/SIGMETs as well flight-plan weather checking! 
 	
 	
 </div>	
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -62,7 +62,7 @@ if(isset($_POST['submitted'])) {
 }
 =======
 <?php
-$emailTo = 'contact@acmeaom.com';
+$emailTo = 'jobs@acmeaom.com';
 $siteTitle = 'Jobs at ACME Atron-O-Matic, LLC Website';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
